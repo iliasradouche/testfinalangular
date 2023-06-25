@@ -1,0 +1,30 @@
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav" class="in">
+                <!-- Home-->
+                <li class="sidebar-item pt-2">
+                    <a class="sidebar-link waves-effect waves-dark"
+                        routerLink="/admin/home"
+                        routerLinkActive="selected"
+                        aria-expanded="false">
+                            <i class="bi bi-house-door-fill"></i><span>{{ 'menu.home' | translate }}</span>
+                    </a>
+                </li>
+                <!-- Manage users-->
+                <li class="sidebar-item pt-2">
+                    <a class="sidebar-link waves-effect waves-dark"
+                        routerLink="/admin/users"
+                        routerLinkActive="selected"
+                        aria-expanded="false">
+                            <i class="bi bi-people-fill"></i><span>{{ 'menu.users' | translate }}</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+</aside>

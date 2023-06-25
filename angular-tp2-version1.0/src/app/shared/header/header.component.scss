@@ -1,0 +1,59 @@
+.navbar-brand {
+    margin-left: 33px;
+}
+
+::ng-deep {
+    .language-container {
+        display: inherit;
+        align-items: center;
+        margin-right: 15px;
+
+        button {
+            box-shadow: none !important;
+            color: #585C61;
+            opacity: 0.5;
+            font-size: inherit;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &.selected {
+                opacity: 1;
+            }
+        }
+
+        .ng-select-container {
+            background-color: transparent !important;
+            border: 0 !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        .ng-select .ng-select-container:hover,
+        .ng-select.ng-select-focused,
+        .ng-select.ng-select-focused:not(.ng-select-opened)>.ng-select-container {
+            border: 0 !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+
+        ng-select {
+            .ng-dropdown-panel {
+                font-size: 12px;
+                width: 62px;
+
+                .lang-img {
+                    margin-right: 5px;
+                }
+            }
+
+            .lang-img {
+                width: 17px;
+                height: 17px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+}

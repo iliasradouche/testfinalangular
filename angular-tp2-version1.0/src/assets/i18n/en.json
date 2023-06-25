@@ -1,0 +1,36 @@
+{
+    "header": {
+        "title": "Angular Training",
+        "description": "Presented by: Prof. Oussama BOUISFI",
+        "change_language": "Change language"
+    },
+    "menu": {
+        "home": "Home",
+        "users": "Manage users"
+    },
+    "pages": {
+        "home": {
+            "title": "Welcome to this test application"
+        },
+        "users": {
+            "title": "Manage users",
+            "table": {
+                "empty_state": "No rows found !",
+                "id": "ID",
+                "avatar": "Avatar",
+                "first_name": "First name",
+                "last_name": "Last name",
+                "email": "Email address",
+                "actions": "Actions"
+            },
+            "buttons": {
+                "add": "Add a user",
+                "update": "Update",
+                "delete": "Delete"
+            },
+            "add_page": {
+                "title": "Add a new user"
+            }
+        }
+    }
+}
